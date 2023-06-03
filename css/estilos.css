@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*fuentes
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Ms Madi', cursive;
+font-family: 'Vesper Libre', serif;
+font-family: 'Heebo', sans-serif;*/
+
+
+/*estilos del header*/
+
+.navbar{
+    background-color: #947685;
+    font-size: 1.5rem;
+    height: 10vh;
+    font-family: 'Vesper Libre', serif;
+    
+}
+.nav-link{
+    color: black;
+    font-size: 1.1rem;
+}
+
+/*estilos del main*/
+main{
+    background-color: #75616B;
+}
+.imgPortada{
+    width: 100%;
+    height: 100vh;
+}
+
+.tituloPrincipal{
+    padding-top: 40px;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Ms Madi', cursive;
+}
+.contenedorSubtitulo{
+    color: white;
+    text-align: center;
+    font-family: 'Vesper Libre', serif;
+    padding-top: 30px;
+}
+.parrafoIndex{
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 20px;
+}
+.carousel{
+    padding-bottom: 100px;
+}
+
+/*estilados de la sección album*/
+.mainAlbum{
+    background-image: linear-gradient(to bottom, #dbb6c9, #d4b0c3, #ceaabc, #c7a5b6, #c19fb0, #b898a8, #b091a0, #a78a98, #9a808d, #8e7581, #816b76, #75616b);
+}
+.contenedorAlbum{
+    background-color: #DBB6C9;
+    height: 80px;
+    
+}
+.tituloAlbum{
+    padding-top: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Ms Madi', cursive;
+}
+.card-group{
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.card{
+    margin: 15px;
+}
+
+.card-body{
+    background-color: #F5CBE0;
+    height: 70px;
+}
+.card-title{
+    font-family: 'Vesper Libre', serif;
+    text-align: end;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+/*estilados de bibliografia*/
+
+.mainBiblio{
+    background-image: linear-gradient(to bottom, #dbb6c9, #d4b0c3, #ceaabc, #c7a5b6, #c19fb0, #b898a8, #b091a0, #a78a98, #9a808d, #8e7581, #816b76, #75616b);
+}
+
+.contenedorBiblio{
+    background-color: #B898A8;
+    height: 100px;
+    
+}
+.tituloBiblio{
+    padding-top: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Ms Madi', cursive;
+}
+.texto-biblio{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center; 
+    font-family: 'Vesper Libre', serif;
+}
+.parrafo-biblio{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Vesper Libre', serif;
+}
+.contendor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgBiblio{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 12rem;
+}
+.contenedorBiografia{
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+.parraBio{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Vesper Libre', serif;
+    font-size: 1.2rem;
+}
+.contenedorCarrera{
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+.parraCarre{
+    padding-top: 10px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Vesper Libre', serif;
+    font-size: 1.2rem;
+}
+
+/*estilados DE LA SECCION REPRODUCI*/
+.contendorSpotify{
+    background-color: #B898A8;
+    height: 100px;
+}
+.tituloSpoti{
+    padding-top: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Ms Madi', cursive;
+}
+.cardsSpotify{
+    margin: 30px;
+}
+.spotify{
+    text-align: center;;
+    background-color: #49414e;
+    padding: 20px;
+}
+.link-spoti{
+    color: black;
+}
+
+
+
+/*estilados del footer*/
+footer{
+    background-color: #947685;
+}
+.parrafoFooter{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+
+
+
+@media screen  and (min-width: 0px) and (max-width:768px) {
+    .navbar{
+        height: 20vh;
+    }
+    .imgPortada{
+    width: 100%;
+    height: 55vh;
+    }
+
+    /*album*/
+    .contenedorAlbum{
+        background-color: #DBB6C9;
+        height: 80px;  
+    }
+    .tituloAlbum{
+        padding-top: 20px;
+        font-size: 1.5rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-family: 'Vesper Libre', serif;
+    }
+
+
+    /*biografía*/
+    .texto-biblio{
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center; 
+        font-family: 'Vesper Libre', serif;
+    }
+    .parrafo-biblio{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Vesper Libre', serif;
+    }
+    .contendor-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .imgBiblio{
+        width: 95%;
+        padding-left: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*spoti*/
+    .cardsSpotify{
+        width: 80%;
+        padding-left: 40px;
+    }
+
+}
